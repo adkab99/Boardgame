@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: boardgame
-          image: adkab99/myapp1 # Image that will be used to containers in the cluster
+          image: adkab99/java-image2 # Image that will be used to containers in the cluster
           imagePullPolicy: Always
           ports:
             - containerPort: 8080 # The port that the container is running on in the cluster
